@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AuthorNameInputGui">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="true" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="3" left="3" bottom="3" right="3"/>
+    <constraints>
+      <xy x="23" y="15" width="1412" height="42"/>
+    </constraints>
+    <properties>
+      <foreground color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="8b57f" class="javax.swing.JTextArea" binding="inputAuthorOfChangesetsTextArea" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="3" use-parent-layout="false">
+            <minimum-size width="200" height="30"/>
+            <preferred-size width="250" height="30"/>
+            <maximum-size width="270" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="input author of changesets:"/>
+        </properties>
+      </component>
+      <component id="b765a" class="javax.swing.JTextField" binding="author" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="2" use-parent-layout="false">
+            <minimum-size width="250" height="30"/>
+            <preferred-size width="250" height="30"/>
+            <maximum-size width="250" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16318456"/>
+          <horizontalAlignment value="0"/>
+          <text value=""/>
+          <toolTipText value="type your name here.."/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,1 @@
+# liquibase-generator-plugin
